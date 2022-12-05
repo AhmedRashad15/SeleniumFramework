@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nopcommerce regression suite">
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="Regression Test" preserve-order="false">
+		<classes>
+			<class name="tests.UserRegistrationTest" />
+			<class name="tests.AddProductReviewTest"></class>
+			<class name="tests.AddtoWishListTest"></class>
+			<class name="tests.ChangeCurrencyTest"></class>
+			<class name="tests.CompareProductsTest"></class>
+			<class name="tests.ContactUsTest"></class>
+			<class name="tests.EmailFriendTest"></class>
+			<class name="tests.MyAccountTest"></class>
+			<class name="tests.ProductHoverMenuTest"></class>
+			<class name="tests.RegisteredUserCheckOutTest"></class>
+			<class name="tests.SearchProductTest"></class>
+			<class name="tests.SearchProductUsingAutomateSuggest"></class>
+			<class name="tests.UserRegistrationTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
